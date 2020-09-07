@@ -11,3 +11,9 @@ Using Beacon technology the devices provide a small alert to the employee if the
 In order to create the device and make it work as both a transmitter and receiver, I utilized the esp32s dual cores. Using one core for the transmitter and one for the receiver. An infinite for loop was run for both the receiver and the transmitter. The receiver code ends with a deep sleep command in order to ensure both the transmitter and receiver code gets executed.
 
 The distance can be set by changing the RSSI CUTOFF value
+
+Hardware components used 
+2x ESP32s boards 
+
+Software Used
+Arduino IDE
